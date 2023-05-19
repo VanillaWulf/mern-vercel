@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "back/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "mern-blog-frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "buildCommand": "npm run build",
+        "outputDirectory": "mern-blog-frontend/build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "back/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "mern-blog-frontend/build/$1"
+    }
+  ]
+}

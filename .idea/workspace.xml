@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ba9ea2-3e09-45ed-8be7-174b6a7cf805" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/back/.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/back/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mern-blog-frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back" beforeDir="false" afterPath="$PROJECT_DIR$/back" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mern-blog-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mern-blog-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mern-blog-frontend" beforeDir="false" afterPath="$PROJECT_DIR$/mern-blog-frontend" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +19,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/back" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2P3Y994NEW2EMh52DeMAhS5dbx2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -50,12 +56,19 @@
       <workItem from="1683034754488" duration="2662000" />
       <workItem from="1683039045963" duration="61000" />
       <workItem from="1683122513525" duration="2336000" />
-      <workItem from="1683130268225" duration="478000" />
+      <workItem from="1683130268225" duration="1550000" />
+      <workItem from="1683206229071" duration="2919000" />
+      <workItem from="1684510150484" duration="253000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mern-blog-frontend/node_modules/tailwindcss/stubs/tailwind.config.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
